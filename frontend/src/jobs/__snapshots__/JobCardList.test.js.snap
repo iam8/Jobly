@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches snapshot for no jobs 1`] = `
+<DocumentFragment>
+  <div
+    class="JobCardList"
+  />
+</DocumentFragment>
+`;
+
+exports[`Matches snapshot for nonempty jobs list 1`] = `
+<DocumentFragment>
+  <div
+    class="JobCardList"
+  >
+    <div
+      class="mb-3"
+    >
+      <div
+        class="JobCard"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="card-body"
+          >
+            <h5
+              class="card-title"
+            >
+              Test title
+            </h5>
+            <p
+              class="text-muted"
+            >
+              Test Company
+            </p>
+            <div>
+              <small>
+                Salary: 100000
+              </small>
+            </div>
+            <div>
+              <small>
+                Equity: 0
+              </small>
+            </div>
+            <button
+              class="float-end btn btn-danger"
+              type="button"
+            >
+              <span>
+                Apply
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mb-3"
+    >
+      <div
+        class="JobCard"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="card-body"
+          >
+            <h5
+              class="card-title"
+            >
+              Test title 2
+            </h5>
+            <p
+              class="text-muted"
+            >
+              Test Company 2
+            </p>
+            <div>
+              <small>
+                Salary: 200000
+              </small>
+            </div>
+            <div>
+              <small>
+                Equity: 1
+              </small>
+            </div>
+            <button
+              class="float-end btn btn-danger"
+              type="button"
+            >
+              <span>
+                Apply
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

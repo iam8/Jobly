@@ -1,0 +1,21 @@
+.SignupForm {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SignupForm-heading {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+.SignupForm-card {
+    width: 30%;
+}
+
+.SignupForm label {
+    font-weight: bold;
+}

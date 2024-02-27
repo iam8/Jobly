@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="SignupForm"
+  >
+    <h2
+      class="SignupForm-heading"
+    >
+      Sign Up
+    </h2>
+    <div
+      class="SignupForm-card card"
+    >
+      <div
+        class="card-body"
+      >
+        <form
+          class="SignupForm-form"
+        >
+          <div
+            class="mb-3"
+          >
+            <label
+              class="form-label"
+              for="username"
+            >
+              Username
+            </label>
+            <input
+              class="form-control"
+              id="username"
+              name="username"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="mb-3"
+          >
+            <label
+              class="form-label"
+              for="password"
+            >
+              Password
+            </label>
+            <input
+              class="form-control"
+              id="password"
+              name="password"
+              type="password"
+              value=""
+            />
+          </div>
+          <div
+            class="mb-3"
+          >
+            <label
+              class="form-label"
+              for="first-name"
+            >
+              First name
+            </label>
+            <input
+              class="form-control"
+              id="first-name"
+              name="firstName"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="mb-3"
+          >
+            <label
+              class="form-label"
+              for="last-name"
+            >
+              Last name
+            </label>
+            <input
+              class="form-control"
+              id="last-name"
+              name="lastName"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="mb-3"
+          >
+            <label
+              class="form-label"
+              for="email"
+            >
+              Email
+            </label>
+            <input
+              class="form-control"
+              id="email"
+              name="email"
+              type="email"
+              value=""
+            />
+          </div>
+          <button
+            class="btn btn-primary d-block w-100"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

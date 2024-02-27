@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="EditProfileForm"
+  >
+    <h2
+      class="EditProfileForm-heading"
+    >
+      Edit Profile
+    </h2>
+    <div
+      class="EditProfileForm-card card"
+    >
+      <div
+        class="card-body"
+      >
+        <form
+          class="EditProfileForm-form"
+        >
+          <div
+            class="mb-3"
+          >
+            <label
+              class="form-label"
+              for="username"
+            >
+              Username
+            </label>
+            <input
+              class="form-control"
+              disabled=""
+              id="username"
+              name="username"
+              type="text"
+              value="testuser"
+            />
+          </div>
+          <div
+            class="mb-3"
+          >
+            <label
+              class="form-label"
+              for="first-name"
+            >
+              First name
+            </label>
+            <input
+              class="form-control"
+              id="first-name"
+              name="firstName"
+              type="text"
+              value="testfirst"
+            />
+          </div>
+          <div
+            class="mb-3"
+          >
+            <label
+              class="form-label"
+              for="last-name"
+            >
+              Last name
+            </label>
+            <input
+              class="form-control"
+              id="last-name"
+              name="lastName"
+              type="text"
+              value="testlast"
+            />
+          </div>
+          <div
+            class="mb-3"
+          >
+            <label
+              class="form-label"
+              for="email"
+            >
+              Email
+            </label>
+            <input
+              class="form-control"
+              id="email"
+              name="email"
+              type="email"
+              value="test@test.net"
+            />
+          </div>
+          <button
+            class="btn btn-primary d-block w-100"
+          >
+            Save changes
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
